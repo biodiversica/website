@@ -4,6 +4,7 @@ html {
 
 body {
     font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;
+    font-size: medium;
     margin: 0;
     padding: 0;
     background-color: rgb(17, 139, 80);
@@ -17,36 +18,6 @@ header {
 
 footer {
     text-align: center;
-}
-
-
-.language-switcher {
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    z-index: 1000;
-}
-
-.language-switcher a {
-    text-decoration: none;
-    color: rgb(251, 246, 233);
-    background-color:#122806; /* #20460a; */
-    padding: 0.25em 0.5em;
-    margin-left: 0.5em;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 0.7em;
-}
-
-.language-switcher a:hover {
-    background-color: rgb(186, 250, 173);
-    color: #20460a;
-}
-
-.language-switcher a.active {
-    background-color:rgb(252, 254, 229);
-    color:#20460a;
-    font-weight: bold;
 }
 
 nav {
@@ -90,90 +61,37 @@ main {
     max-width: 700px;        /* Limits width on big screens */
     margin: 0 auto;          /* Centers horizontally */
     padding: 1em;            /* Adds space inside the box */
-    text-align: justify
-}
-
-.contact-box {
-    max-width: 600px;
-    margin: 2em auto;
-    padding: 2em;
-    background-color: #122806;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;
-}
-
-.contact-box h2 {
-    margin-bottom: 1em;
-    text-align: center;
-    color: rgb(252, 254, 229);
-}
-
-.contact-box label {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    font-weight: bold;
-    color: rgb(252, 254, 229);
-}
-
-.contact-box input,
-.contact-box textarea {
-    width: 100%;
-    padding: 0.7em;
-    border: 1px solid rgb(252, 254, 229);
-    border-radius: 4px;
-    font-family: inherit;
-    background-color: rgb(252, 254, 229);
-    color: #122806;
-}
-
-.contact-box button {
-    margin-top: 1.5em;
-    padding: 0.8em 1.5em;
-    background-color: rgb(252, 254, 229);
-    color: #122806;
-    border: none;
-    border-radius: 4px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact-box button:hover {
-    background-color: rgb(186, 250, 173);
-    color: #122806;
-}
-
-.back-to-top {
-  display: inline-block;
-  padding: 4px 4px;
-  background: #20460a;
-  color: white;
-  border-radius: 4px;
-  text-decoration: none;
-  cursor: pointer;
-}
-.back-to-top:hover {
-  background: rgb(186, 250, 173);
+    text-align: justify;
+    font-size: 0.85em;
 }
 
 .site-footer {
     color: rgb(252, 254, 229);
     padding: 2em;
+    font-size: 0.85em;
 }
 
-.site-footer a {
-    text-decoration: none;
-    color: rgb(251, 246, 233);
-    padding: 0.25em 0.5em;
-    margin-left: 0.5em;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 0.7em;
-}
+@media (max-width: 600px) {
+    body {
+        font-size: 0.85em; /* Scale down global font */
+    }
 
-.site-footer a:hover {
-    background-color: rgb(186, 250, 173);
-    color: #20460a;
-}
+    header {
+        padding: 1em; /* Less padding on small screens */
+    }
+
+    nav a {
+        font-size: 1.2em;
+        padding: 0.75em 1em; /* Bigger tappable area */
+    }
+
+    .content {
+        padding: 1em 0.5em; /* Reduce horizontal padding */
+        font-size: 0.95em; /* Slightly smaller content text */
+    }
+
+    .site-footer {
+        padding: 1em;
+        font-size: 0.75em;
+    }
+} 

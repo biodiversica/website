@@ -57,6 +57,7 @@ nav a.lang-toggle {
 }
 
 pre.audiobits {
+    color:rgb(17, 139, 80);
     font-family: Consolas, 'Courier New', monospace;
     line-height: 1;
     width: 100%;
@@ -119,6 +120,35 @@ main {
     padding: 1em;            /* Adds space inside the box */
     text-align: justify;
     font-size: 0.85em;
+}
+
+.content h3 {
+    color: rgb(17, 139, 80);
+    margin-top: 1.5em;
+}
+
+.content h2 {
+    color: rgb(252, 254, 229);
+    margin-top: 1.5em;
+    background-color: #122806;
+    text-decoration: underline;
+}
+
+.content a {
+    color: rgb(252, 254, 229);
+    background: #20460a;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.content a:hover {
+    background: rgb(17, 139, 80);
+    color: rgb(252, 254, 229);
+    text-decoration: underline;
+    font-weight: bold;
+
+    
 }
 
 .site-footer {

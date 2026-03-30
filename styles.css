@@ -125,11 +125,12 @@ main {
 .content h3 {
     color: rgb(17, 139, 80);
     margin-top: 1.5em;
+    margin-bottom: 200px;
 }
 
 .content h2 {
     color: rgb(252, 254, 229);
-    margin-top: 1.5em;
+    margin-top: 500px;
     background-color: #122806;
     text-decoration: underline;
 }
@@ -149,6 +150,10 @@ main {
     font-weight: bold;
 
     
+}
+
+#project1, #project2, #project3, #project4 {
+    scroll-margin-top: 200px;
 }
 
 .site-footer {

@@ -42,6 +42,62 @@ nav a.active {
     font-weight: bold;
 }
 
+.lang-dropdown {
+    position: relative;
+    margin-left: auto;
+}
+
+nav a.lang-toggle {
+    background-color: transparent;
+    border: 1px solid rgb(252, 254, 229);
+    color: rgb(252, 254, 229);
+    font-weight: normal;
+    cursor: pointer;
+    display: block;
+}
+
+pre.audiobits {
+    font-family: Consolas, 'Courier New', monospace;
+    line-height: 1;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+}
+
+.lang-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 0.25em);
+    background-color: #122806;
+    border-radius: 4px;
+    min-width: 100%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.lang-dropdown:hover .lang-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.lang-menu a {
+    background-color: #122806;
+    border-radius: 0;
+    margin-right: 0;
+    white-space: nowrap;
+    display: block;
+    padding: 0.5em 1em;
+}
+
+.lang-menu a.active {
+    background-color: rgb(252, 254, 229);
+    color: #20460a;
+    font-weight: bold;
+}
+
 a {
     color:rgb(17, 139, 80)
 }

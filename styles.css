@@ -154,6 +154,7 @@ main {
 
 #project1, #project2, #project3, #project4 {
     scroll-margin-top: 200px;
+    text-align: left;
 }
 
 .site-footer {

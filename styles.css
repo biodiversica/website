@@ -173,7 +173,7 @@ a { color: var(--green); }
 .card h2 a { color: var(--cream); text-decoration: none; }
 .card h2 a:hover { color: var(--mint); }
 .card .tags { margin-bottom: 1rem; }
-.card p { margin: 0 0 1rem; color: var(--cream); font-size: .97rem; }
+.card p { margin: 0 0 1rem; color: var(--cream); font-size: .97rem; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 .card p a { color: var(--mint); font-weight: 600; text-decoration-color: var(--green); text-decoration-thickness: 2px; text-underline-offset: 3px; }
 .card p a:hover { background: var(--green); color: var(--cream); }
 .card-foot { margin-top: auto !important; padding-top: .5rem; }

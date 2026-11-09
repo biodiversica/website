@@ -96,8 +96,6 @@ a { color: var(--green); }
     letter-spacing: -.035em;
     font-weight: 700;
     margin: 0;
-    max-width: 24ch;
-    text-wrap: balance;
 }
 
 .wave { display: block; width: 100%; height: clamp(80px, 14vw, 140px); margin-top: 3rem; }

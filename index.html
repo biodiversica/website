@@ -1,60 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>biodiversica</title>
-    <link rel="stylesheet" href="./styles.css">
+    <meta name="description" content="Biodiversica: software livre e tecnologias de áudio para a conservação da biodiversidade brasileira.">
+    <meta name="theme-color" content="#118b50">
+    <link rel="alternate" hreflang="en" href="index-en.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>~/biodiversica</h1>
-        <nav>
-            <a href="index.html" class="active">Sobre</a>
-            <a href="software.html">Software</a>
-            <a href="projects.html">Projetos</a>
-            <a href="contact.html">Contato</a>
-            <div class="lang-dropdown">
-                <a class="lang-toggle">pt-BR ▾</a>
-                <div class="lang-menu">
-                    <a href="index.html" class="active">Português (BR)</a>
-                    <a href="index-en.html">English</a>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <pre class="audiobits">
-█ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀
-▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄
-▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄
-▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄
-        </pre>
-        <div class="content">
-            <p>
-            Biodiversica é uma iniciativa em curso, idealizada por <a href="https://kauewerner.github.io">Kauê Werner</a> em 2025, com o objetivo de fortalecer ações de
-            conservação da biodiversidade brasileira por meio de tecnologias de áudio. Concentra-se no desenvolvimento,
-            suporte e disseminação de soluções em sofware livre e código aberto (<i>open source</i>) voltadas à coleta, monitoramento, gestão e análise de dados acústicos
-            provenientes dos diferentes biomas do país.
-            </p>
+    <a class="skip" href="#main">Pular para o conteúdo</a>
+    <header class="site-header" id="top">
+        <div class="wrap header-inner">
+            <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>biodiversica</a>
+            <nav class="menu" aria-label="Navegação principal"><a href="index.html" aria-current="page">Sobre</a><a href="software.html">Software</a><a href="projects.html">Projetos</a><a href="contact.html">Contato</a></nav>
+            <nav class="lang" aria-label="Idioma"><a href="index.html" aria-current="true" lang="pt-BR">PT</a><a href="index-en.html" hreflang="en" lang="en">EN</a></nav>
         </div>
-        <div class="content">
-            <p>
-            O principal foco é oferecer suporte técnico a instituições e organizações que atuam com pesquisa,
+    </header>
+    <main id="main">
+        <section class="hero">
+            <div class="wrap">
+                <p class="eyebrow">BIODIVERSIdade + Código Aberto</p>
+                <h1>Tecnologias de áudio para a conservação da biodiversidade brasileira.</h1>
+                <svg class="wave" viewBox="0 0 720 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><rect x="2.2" y="49.6" width="5.5" height="20.9" rx="2.8" style="--i:0"/><rect x="12.2" y="48.8" width="5.5" height="22.3" rx="2.8" style="--i:1"/><rect x="22.2" y="41.6" width="5.5" height="36.7" rx="2.8" style="--i:2"/><rect x="32.2" y="44.8" width="5.5" height="30.3" rx="2.8" style="--i:3"/><rect x="42.2" y="35.8" width="5.5" height="48.4" rx="2.8" style="--i:4"/><rect x="52.2" y="34.8" width="5.5" height="50.4" rx="2.8" style="--i:5"/><rect x="62.2" y="37.1" width="5.5" height="45.9" rx="2.8" style="--i:6"/><rect x="72.2" y="25.8" width="5.5" height="68.3" rx="2.8" style="--i:7"/><rect x="82.2" y="33.2" width="5.5" height="53.7" rx="2.8" style="--i:8"/><rect x="92.2" y="22.8" width="5.5" height="74.5" rx="2.8" style="--i:9"/><rect x="102.2" y="30.0" width="5.5" height="60.0" rx="2.8" style="--i:10"/><rect x="112.2" y="29.2" width="5.5" height="61.6" rx="2.8" style="--i:11"/><rect x="122.2" y="21.8" width="5.5" height="76.4" rx="2.8" style="--i:12"/><rect x="132.2" y="13.9" width="5.5" height="92.2" rx="2.8" style="--i:13"/><rect x="142.2" y="31.2" width="5.5" height="57.6" rx="2.8" style="--i:14"/><rect x="152.2" y="31.1" width="5.5" height="57.9" rx="2.8" style="--i:15"/><rect x="162.2" y="25.9" width="5.5" height="68.1" rx="2.8" style="--i:16"/><rect x="172.2" y="23.7" width="5.5" height="72.6" rx="2.8" style="--i:17"/><rect x="182.2" y="32.9" width="5.5" height="54.3" rx="2.8" style="--i:18"/><rect x="192.2" y="38.1" width="5.5" height="43.8" rx="2.8" style="--i:19"/><rect x="202.2" y="33.2" width="5.5" height="53.7" rx="2.8" style="--i:20"/><rect x="212.2" y="45.9" width="5.5" height="28.2" rx="2.8" style="--i:21"/><rect x="222.2" y="38.5" width="5.5" height="42.9" rx="2.8" style="--i:22"/><rect x="232.2" y="45.2" width="5.5" height="29.6" rx="2.8" style="--i:23"/><rect x="242.2" y="47.0" width="5.5" height="25.9" rx="2.8" style="--i:24"/><rect x="252.2" y="47.5" width="5.5" height="25.0" rx="2.8" style="--i:25"/><rect x="262.2" y="45.8" width="5.5" height="28.4" rx="2.8" style="--i:26"/><rect x="272.2" y="41.2" width="5.5" height="37.6" rx="2.8" style="--i:27"/><rect x="282.2" y="47.3" width="5.5" height="25.4" rx="2.8" style="--i:28"/><rect x="292.2" y="44.4" width="5.5" height="31.3" rx="2.8" style="--i:29"/><rect x="302.2" y="45.0" width="5.5" height="29.9" rx="2.8" style="--i:30"/><rect x="312.2" y="48.7" width="5.5" height="22.6" rx="2.8" style="--i:31"/><rect x="322.2" y="46.4" width="5.5" height="27.1" rx="2.8" style="--i:32"/><rect x="332.2" y="48.1" width="5.5" height="23.7" rx="2.8" style="--i:33"/><rect x="342.2" y="45.8" width="5.5" height="28.4" rx="2.8" style="--i:34"/><rect x="352.2" y="41.3" width="5.5" height="37.4" rx="2.8" style="--i:35"/><rect x="362.2" y="31.1" width="5.5" height="57.8" rx="2.8" style="--i:36"/><rect x="372.2" y="31.5" width="5.5" height="57.0" rx="2.8" style="--i:37"/><rect x="382.2" y="30.5" width="5.5" height="59.0" rx="2.8" style="--i:38"/><rect x="392.2" y="22.3" width="5.5" height="75.5" rx="2.8" style="--i:39"/><rect x="402.2" y="22.8" width="5.5" height="74.4" rx="2.8" style="--i:40"/><rect x="412.2" y="24.9" width="5.5" height="70.3" rx="2.8" style="--i:41"/><rect x="422.2" y="12.6" width="5.5" height="94.8" rx="2.8" style="--i:42"/><rect x="432.2" y="15.0" width="5.5" height="90.1" rx="2.8" style="--i:43"/><rect x="442.2" y="26.4" width="5.5" height="67.2" rx="2.8" style="--i:44"/><rect x="452.2" y="20.6" width="5.5" height="78.8" rx="2.8" style="--i:45"/><rect x="462.2" y="23.9" width="5.5" height="72.1" rx="2.8" style="--i:46"/><rect x="472.2" y="19.9" width="5.5" height="80.1" rx="2.8" style="--i:47"/><rect x="482.2" y="26.0" width="5.5" height="68.0" rx="2.8" style="--i:48"/><rect x="492.2" y="36.2" width="5.5" height="47.5" rx="2.8" style="--i:49"/><rect x="502.2" y="28.9" width="5.5" height="62.3" rx="2.8" style="--i:50"/><rect x="512.2" y="43.0" width="5.5" height="34.1" rx="2.8" style="--i:51"/><rect x="522.2" y="41.1" width="5.5" height="37.8" rx="2.8" style="--i:52"/><rect x="532.2" y="39.0" width="5.5" height="41.9" rx="2.8" style="--i:53"/><rect x="542.2" y="46.3" width="5.5" height="27.3" rx="2.8" style="--i:54"/><rect x="552.2" y="43.7" width="5.5" height="32.7" rx="2.8" style="--i:55"/><rect x="562.2" y="48.2" width="5.5" height="23.6" rx="2.8" style="--i:56"/><rect x="572.2" y="42.5" width="5.5" height="35.0" rx="2.8" style="--i:57"/><rect x="582.2" y="41.7" width="5.5" height="36.5" rx="2.8" style="--i:58"/><rect x="592.2" y="43.7" width="5.5" height="32.5" rx="2.8" style="--i:59"/><rect x="602.2" y="41.6" width="5.5" height="36.8" rx="2.8" style="--i:60"/><rect x="612.2" y="47.3" width="5.5" height="25.3" rx="2.8" style="--i:61"/><rect x="622.2" y="45.8" width="5.5" height="28.4" rx="2.8" style="--i:62"/><rect x="632.2" y="46.9" width="5.5" height="26.3" rx="2.8" style="--i:63"/><rect x="642.2" y="44.3" width="5.5" height="31.4" rx="2.8" style="--i:64"/><rect x="652.2" y="42.5" width="5.5" height="35.1" rx="2.8" style="--i:65"/><rect x="662.2" y="34.4" width="5.5" height="51.2" rx="2.8" style="--i:66"/><rect x="672.2" y="28.6" width="5.5" height="62.8" rx="2.8" style="--i:67"/><rect x="682.2" y="31.9" width="5.5" height="56.3" rx="2.8" style="--i:68"/><rect x="692.2" y="24.9" width="5.5" height="70.1" rx="2.8" style="--i:69"/><rect x="702.2" y="33.9" width="5.5" height="52.3" rx="2.8" style="--i:70"/><rect x="712.2" y="18.0" width="5.5" height="84.0" rx="2.8" style="--i:71"/></svg>
+            </div>
+        </section>
+        <section class="wrap prose two-col">
+            <p class="big">Biodiversica é uma iniciativa em curso, idealizada por <a href="https://kauewerner.github.io" target="_blank" rel="noopener">Kauê Werner</a> em 2025, com o objetivo de fortalecer ações de
+            conservação da biodiversidade brasileira por meio de tecnologias de áudio. Concentra-se no desenvolvimento,
+            suporte e disseminação de soluções em software livre e código aberto (<i>open source</i>) voltadas à coleta, monitoramento, gestão e análise de dados acústicos
+            provenientes dos diferentes biomas do país.</p>
+            <p>O principal foco é oferecer suporte técnico a instituições e organizações que atuam com pesquisa,
             monitoramento e conservação ambiental. Isso inclui desde o desenvolvimento de firmware para dispositivos
             de monitoramento remoto até a criação e/ou treinamento de modelos computacionais personalizados para
-            análise de dados.
-            </p>
-        </div>
-    <pre class="audiobits">
-█ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀
-▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄
-▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄
-▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▄ ▀ ▀ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄ █ ▀ ▄ ▀ ▀ ▄ ▄ ▀ ▄ ▄ ▀ ▀ ▄ ▀ ▄
-    </pre>
+            análise de dados.</p>
+        </section>
+        <section class="wrap">
+            <p class="eyebrow">Foco</p>
+            <ul class="focus">
+                <li><span class="num">01</span><h3>Firmware</h3><p>para dispositivos de monitoramento acústico remoto.</p></li>
+                <li><span class="num">02</span><h3>Modelos</h3><p>de classificação criados e/ou treinados sob medida para análise de dados.</p></li>
+                <li><span class="num">03</span><h3>Software livre</h3><p>para coleta, monitoramento, gestão e análise de dados acústicos.</p></li>
+            </ul>
+            <p class="more"><a href="software.html">ver software <span aria-hidden="true">→</span></a><a href="projects.html">ver projetos <span aria-hidden="true">→</span></a></p>
+        </section>
+        <section class="cta">
+            <div class="wrap cta-inner">
+                <h2>Precisa de apoio técnico em bioacústica?</h2>
+                <a class="button light" href="contact.html">Contato <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
     </main>
     <footer class="site-footer">
-        <p>[BIODIVERSICA = BIODIVERSIdade + Código Aberto]</p>
+        <div class="wrap footer-inner">
+            <p class="formula">[BIODIVERSICA = BIODIVERSIdade + Código Aberto]</p>
+            <nav aria-label="footer"><a href="index.html">Sobre</a> <a href="software.html">Software</a> <a href="projects.html">Projetos</a> <a href="contact.html">Contato</a></nav>
+            <p><a href="mailto:info@biodiversica.xyz">info@biodiversica.xyz</a> · <a href="https://github.com/biodiversica" target="_blank" rel="noopener">GitHub</a></p>
+        </div>
     </footer>
 </body>
 </html>

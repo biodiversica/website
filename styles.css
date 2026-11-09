@@ -102,7 +102,7 @@ a { color: var(--green); }
 
 .wave.thin { height: 48px; margin-top: 2.5rem; opacity: .9; }
 
-.page-head { padding: clamp(2.5rem, 6vw, 4rem) 0 0; border-bottom: 1px solid var(--line); overflow: hidden; }
+.page-head { padding: clamp(2.5rem, 6vw, 4rem) 0 0; overflow: hidden; }
 .lead { font-size: 1.2rem; max-width: 52ch; color: var(--muted); margin: 1.25rem 0 0; }
 
 .jump { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.75rem; }

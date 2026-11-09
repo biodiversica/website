@@ -146,7 +146,7 @@ a { color: var(--green); }
 .card {
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background: var(--mint);
     border: 1px solid var(--line);
     padding: 1.75rem;
     transition: transform .2s, box-shadow .2s, border-color .2s;
@@ -170,7 +170,8 @@ a { color: var(--green); }
 .card h2 a:hover { color: var(--green); }
 .card .tags { margin-bottom: 1rem; }
 .card p { margin: 0 0 1rem; color: var(--dark); font-size: .97rem; }
-.card p a { color: var(--green); font-weight: 600; }
+.card p a { color: var(--dark); font-weight: 600; text-decoration-color: var(--green); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.card p a:hover { background: var(--cream); }
 .card-foot { margin-top: auto !important; padding-top: .5rem; }
 
 .install span { font-weight: 700; }
@@ -184,7 +185,7 @@ a { color: var(--green); }
     font-size: .8rem;
     color: var(--dark) !important;
     text-decoration: none;
-    background: var(--mint);
+    background: var(--cream);
     padding: .35rem .85rem;
    
     font-weight: 400 !important;

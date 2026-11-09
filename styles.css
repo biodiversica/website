@@ -112,8 +112,10 @@ a { color: var(--green); }
     fill: var(--green);
     transform-box: fill-box;
     transform-origin: center;
-    animation: pulse 2.6s ease-in-out infinite;
-    animation-delay: calc(var(--i) * -0.11s);
+    /* plays a few ripples on load, then stops: an endless animation
+       keeps the browser repainting and costs ~30-50% of a CPU core */
+    animation: pulse 2.6s ease-in-out 3;
+    animation-delay: calc(var(--i) * 0.02s);
 }
 .wave rect:nth-child(7n) { fill: var(--mint); }
 .wave rect:nth-child(5n) { fill: var(--mid); }

@@ -108,18 +108,9 @@ a { color: var(--green); }
 }
 
 .wave { display: block; width: 100%; height: clamp(80px, 14vw, 140px); margin-top: 3rem; }
-.wave rect {
-    fill: var(--green);
-    transform-box: fill-box;
-    transform-origin: center;
-    /* plays a few ripples on load, then stops: an endless animation
-       keeps the browser repainting and costs ~30-50% of a CPU core */
-    animation: pulse 2.6s ease-in-out 3;
-    animation-delay: calc(var(--i) * 0.02s);
-}
+.wave rect { fill: var(--green); }
 .wave rect:nth-child(7n) { fill: var(--mint); }
 .wave rect:nth-child(5n) { fill: var(--mid); }
-@keyframes pulse { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(.35); } }
 
 .wave.thin { height: 48px; margin-top: 2.5rem; opacity: .9; }
 

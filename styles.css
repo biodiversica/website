@@ -199,7 +199,7 @@ a { color: var(--green); }
 /* ---------- contact ---------- */
 
 .contact-body { padding-top: 2rem; padding-bottom: 4rem; }
-.contact-body .lead { margin-top: 0; }
+.contact-body .lead { margin-top: 0; text-align: justify; }
 .mail { font-size: 1.25rem; font-weight: 700; letter-spacing: -.01em; margin: 1.5rem 0 0; }
 .mail a { color: var(--dark); text-decoration: none; background: linear-gradient(var(--mint), var(--mint)) 0 88% / 100% .25em no-repeat; }
 .mail a:hover { background-size: 100% 100%; }

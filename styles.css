@@ -192,6 +192,7 @@ a { color: var(--green); }
     font-weight: 400 !important;
 }
 .pill:hover { background: var(--cream); }
+.pill + .pill { margin-left: .4rem; }
 
 .to-top { font-family: var(--mono); font-size: .85rem; padding-bottom: 3rem; }
 .to-top a { color: var(--muted); }

@@ -230,8 +230,7 @@ a { color: var(--green); }
 .site-footer { background: var(--dark); color: var(--cream); font-size: .85rem; padding: 2.5rem 0; }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 2rem; align-items: center; }
 .footer-inner p { margin: 0; }
-.formula { font-family: var(--mono); color: var(--mint); }
-.site-footer nav { display: flex; gap: 1rem; }
+.formula { font-family: var(--mono); font-size: .75rem; color: var(--mint); }
 .site-footer a { color: var(--cream); text-decoration: none; }
 .site-footer a:hover { color: var(--mint); }
 
